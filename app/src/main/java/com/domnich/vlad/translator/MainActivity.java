@@ -74,7 +74,6 @@ public class MainActivity extends AppCompatActivity{
                         if(e.getKey().equals("text")){
                             textRus.setText(e.getValue().toString());
                         }
-                        System.out.println(e.getKey() + " " + e.getValue());
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
