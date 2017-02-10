@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Translator</string>
+    <string name="edTextEng">Enter your text</string>
+    <string name="buttonTranslate">Translate</string>
 </resources>
