@@ -15,7 +15,7 @@
         android:id="@+id/edTextEng"
         android:hint="@string/edTextEng"
         android:textSize="30dp"
-        android:gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
         android:background="@color/edTextColor"
         android:layout_width="match_parent"
         android:layout_height="150dp"
@@ -30,11 +30,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
-    <EditText
-        android:id="@+id/edTextRus"
-        android:layout_below="@id/buttonTranslate"
+    <TextView
+        android:id="@+id/textRus"
+        android:text="@string/textRus"
+        android:textSize="30dp"
         android:layout_marginTop="20dp"
+        android:layout_below="@id/buttonTranslate"
         android:background="@color/edTextColor"
+        android:gravity="center_horizontal|center_vertical"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         />
